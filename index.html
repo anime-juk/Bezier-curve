@@ -1,0 +1,40 @@
+<!doctype>
+<html>
+    <head>
+        <meta  content="charset=UTF-8">
+        <link rel="stylesheet" href="i_s.css">
+    </head>
+    <body>
+        <div class="container1">
+            <canvas id="bezier" width="800" height="400">Ваш браузер не поддерживает canvas.</canvas>
+            </div>
+            <div class="container2">
+            <div class="text">
+                <form>
+                <label for="s1">Выберите кол-во точек:</label>
+                <select name="point" id="s1" autofocus>
+                    <option selected value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </form>
+            </div>
+            <div>
+            <form>
+                    <label for="p1">Точка№1(x,y)</label><input type="text" name="poin1" id="p1" value="0,200"><br>
+                    <label for="p2">Точка№2(x,y)</label><input type="text" name="poin2" id="p2" value="200,80"><br>
+                    <label for="p3">Точка№3(x,y)</label><input type="text" name="poin3" id="p3"><br>
+                    <label for="p4">Точка№4(x,y)</label><input type="text" name="poin4" id="p4"><br>
+                    <label for="p5">Точка№5(x,y)</label><input type="text" name="poin5" id="p5"><br>
+                    <label for="p6">Точка№6(x,y)</label><input type="text" name="poin6" id="p6"><br>
+                    </form>
+                    <button class="press">принять</button>
+                </div>
+        </div>
+    </div>
+        <script src="draw.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
